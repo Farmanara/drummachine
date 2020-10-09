@@ -1,22 +1,31 @@
 {
   "files": {
-    "main.css": "/drummachine/static/css/main.275195b4.chunk.css",
-    "main.js": "/drummachine/static/js/main.ea06dff7.chunk.js",
-    "main.js.map": "/drummachine/static/js/main.ea06dff7.chunk.js.map",
+    "main.css": "/drummachine/static/css/main.829a6507.chunk.css",
+    "main.js": "/drummachine/static/js/main.d5bb2bca.chunk.js",
+    "main.js.map": "/drummachine/static/js/main.d5bb2bca.chunk.js.map",
     "runtime-main.js": "/drummachine/static/js/runtime-main.ae9f8a70.js",
     "runtime-main.js.map": "/drummachine/static/js/runtime-main.ae9f8a70.js.map",
-    "static/js/2.ed5fb89c.chunk.js": "/drummachine/static/js/2.ed5fb89c.chunk.js",
-    "static/js/2.ed5fb89c.chunk.js.map": "/drummachine/static/js/2.ed5fb89c.chunk.js.map",
+    "static/js/2.26798133.chunk.js": "/drummachine/static/js/2.26798133.chunk.js",
+    "static/js/2.26798133.chunk.js.map": "/drummachine/static/js/2.26798133.chunk.js.map",
     "index.html": "/drummachine/index.html",
-    "precache-manifest.43acb351b703626f6a6c9717c7b0dd99.js": "/drummachine/precache-manifest.43acb351b703626f6a6c9717c7b0dd99.js",
+    "precache-manifest.a4732fc9534d83165d0522277b30a5f1.js": "/drummachine/precache-manifest.a4732fc9534d83165d0522277b30a5f1.js",
     "service-worker.js": "/drummachine/service-worker.js",
-    "static/css/main.275195b4.chunk.css.map": "/drummachine/static/css/main.275195b4.chunk.css.map",
-    "static/js/2.ed5fb89c.chunk.js.LICENSE.txt": "/drummachine/static/js/2.ed5fb89c.chunk.js.LICENSE.txt"
+    "static/css/main.829a6507.chunk.css.map": "/drummachine/static/css/main.829a6507.chunk.css.map",
+    "static/js/2.26798133.chunk.js.LICENSE.txt": "/drummachine/static/js/2.26798133.chunk.js.LICENSE.txt",
+    "static/media/clap-808.mp3": "/drummachine/static/media/clap-808.58d55ab6.mp3",
+    "static/media/hihat-808.mp3": "/drummachine/static/media/hihat-808.82024bfb.mp3",
+    "static/media/hihat-dist01.mp3": "/drummachine/static/media/hihat-dist01.60f9dbd9.mp3",
+    "static/media/kick-808.mp3": "/drummachine/static/media/kick-808.4ffa7bdf.mp3",
+    "static/media/kick-big.mp3": "/drummachine/static/media/kick-big.2f5ef05b.mp3",
+    "static/media/openhat-slick.mp3": "/drummachine/static/media/openhat-slick.3731a935.mp3",
+    "static/media/perc-hollow.mp3": "/drummachine/static/media/perc-hollow.e51572ca.mp3",
+    "static/media/shaker-shuffle.mp3": "/drummachine/static/media/shaker-shuffle.f326287c.mp3",
+    "static/media/snare-brute.mp3": "/drummachine/static/media/snare-brute.41799329.mp3"
   },
   "entrypoints": [
     "static/js/runtime-main.ae9f8a70.js",
-    "static/js/2.ed5fb89c.chunk.js",
-    "static/css/main.275195b4.chunk.css",
-    "static/js/main.ea06dff7.chunk.js"
+    "static/js/2.26798133.chunk.js",
+    "static/css/main.829a6507.chunk.css",
+    "static/js/main.d5bb2bca.chunk.js"
   ]
 }
