@@ -19,7 +19,7 @@ constructor(props){
 
 
   this.state = {
-    display:'Try!',
+    display:'Click or press keys on keyboard!',
 
   };
   this.playAudio=this.playAudio.bind(this);
@@ -95,25 +95,24 @@ render (){
 
 
   return (
-  <div  id="drum-machine">React Component
+  <div  id="drum-machine" className="container">
+          <div className="drum-machine-title"> Drumpad!</div>
+          <div className= "display" id="display"> {this.state.display} </div>
+          
+        
 
-          <div id="display"> {this.state.display}
-          <br></br>
+            <button className="drum-pad q" id="clap-808" onClick={this.playAudio} value="Clap" ><audio type="audio/mp3" id="Q" className="clip" src={clap808}></audio>Q</button>
+            <button className="drum-pad w" id="tom-analog" onClick={this.playAudio} value="Hihat 1"><audio type="audio/mp3" id="W" className="clip" src={hihat808}></audio>W</button>
+            <button className="drum-pad e" id="hihat-dist01" onClick={this.playAudio} value="Hihat 2" ><audio type="audio/mp3" id="E" className="clip" src={hihatdist01}></audio>E</button>
+            <button className="drum-pad a" id="kick-808" onClick={this.playAudio} value="Kick" ><audio type="audio/mp3" id="A" className="clip" src={kick808}></audio>A</button>
+            <button className="drum-pad s" id="kick-big" onClick={this.playAudio} value="Big Kick"><audio type="audio/mp3" id="S" className="clip" src={kickbig}></audio>S</button>
+            <button className="drum-pad d" id="openhat-slick" onClick={this.playAudio} value="Open Hat" ><audio id="D" className="clip" src={openhatslick}></audio>D</button>
+            <button className="drum-pad z" id="perc-hollow" onClick={this.playAudio} ><audio id="Z" className="clip" src={perchollow}></audio>Z</button>
+            <button className="drum-pad x" id="shaker-shuffle" onClick={this.playAudio} ><audio id="X" className="clip" src={shakershuffle}></audio>X</button>
+            <button className="drum-pad c" id="snare-brute" onClick={this.playAudio} ><audio id="C" className="clip" src={snarebrute}></audio>C</button>
+      
 
-            <button className="drum-pad" id="clap-808" onClick={this.playAudio} ><audio type="audio/mp3" id="Q" className="clip" src={clap808}></audio>Q</button>
-            <button className="drum-pad" id="tom-analog" onClick={this.playAudio} ><audio type="audio/mp3" id="W" className="clip" src={hihat808}></audio>W</button>
-            <button className="drum-pad" id="hihat-dist01" onClick={this.playAudio} ><audio type="audio/mp3" id="E" className="clip" src={hihatdist01}></audio>E</button>
-            <button className="drum-pad" id="kick-808" onClick={this.playAudio} ><audio type="audio/mp3" id="A" className="clip" src={kick808}></audio>A</button>
-            <button className="drum-pad" id="kick-big" onClick={this.playAudio} ><audio type="audio/mp3" id="S" className="clip" src={kickbig}></audio>S</button>
-            <button className="drum-pad" id="openhat-slick" onClick={this.playAudio} ><audio id="D" className="clip" src={openhatslick}></audio>D</button>
-            <button className="drum-pad" id="perc-hollow" onClick={this.playAudio} ><audio id="Z" className="clip" src={perchollow}></audio>Z</button>
-            <button className="drum-pad" id="shaker-shuffle" onClick={this.playAudio} ><audio id="X" className="clip" src={shakershuffle}></audio>X</button>
-            <button className="drum-pad" id="snare-brute" onClick={this.playAudio} ><audio id="C" className="clip" src={snarebrute}></audio>C</button>
-
-
-          </div>
-
-  </div>)
+         </div>)
 }
 }
 
