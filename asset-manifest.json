@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/drummachine/static/css/main.829a6507.chunk.css",
+    "main.css": "/drummachine/static/css/main.42de92ce.chunk.css",
     "main.js": "/drummachine/static/js/main.d5bb2bca.chunk.js",
     "main.js.map": "/drummachine/static/js/main.d5bb2bca.chunk.js.map",
     "runtime-main.js": "/drummachine/static/js/runtime-main.ae9f8a70.js",
@@ -8,9 +8,9 @@
     "static/js/2.26798133.chunk.js": "/drummachine/static/js/2.26798133.chunk.js",
     "static/js/2.26798133.chunk.js.map": "/drummachine/static/js/2.26798133.chunk.js.map",
     "index.html": "/drummachine/index.html",
-    "precache-manifest.a4732fc9534d83165d0522277b30a5f1.js": "/drummachine/precache-manifest.a4732fc9534d83165d0522277b30a5f1.js",
+    "precache-manifest.deba7726fc1ca64efe905b700d09c428.js": "/drummachine/precache-manifest.deba7726fc1ca64efe905b700d09c428.js",
     "service-worker.js": "/drummachine/service-worker.js",
-    "static/css/main.829a6507.chunk.css.map": "/drummachine/static/css/main.829a6507.chunk.css.map",
+    "static/css/main.42de92ce.chunk.css.map": "/drummachine/static/css/main.42de92ce.chunk.css.map",
     "static/js/2.26798133.chunk.js.LICENSE.txt": "/drummachine/static/js/2.26798133.chunk.js.LICENSE.txt",
     "static/media/clap-808.mp3": "/drummachine/static/media/clap-808.58d55ab6.mp3",
     "static/media/hihat-808.mp3": "/drummachine/static/media/hihat-808.82024bfb.mp3",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.ae9f8a70.js",
     "static/js/2.26798133.chunk.js",
-    "static/css/main.829a6507.chunk.css",
+    "static/css/main.42de92ce.chunk.css",
     "static/js/main.d5bb2bca.chunk.js"
   ]
 }
