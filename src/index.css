@@ -46,7 +46,10 @@
   align-content: center;
 
 }
-
+.drum-pad:hover{
+  background-color: rgb(127, 129, 124);
+  border: 2px solid black;
+}
 
   .q {
   display: grid;
@@ -55,10 +58,7 @@
   background: #04773B;
 }
 
-.q:hover {
-  background-color: rgb(127, 129, 124);
-  border: 2px solid black;
-}
+
 .w{
   display: grid;
   grid-column: 3;
